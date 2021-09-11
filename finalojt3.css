@@ -1,0 +1,103 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+nav li 
+{
+    display: inline-block;
+    margin: 0 8px;
+    padding-top: 1px;
+}
+
+nav li a
+{
+    color: white;
+    padding: 11px;
+    text-decoration: none;
+    font-family: arial;
+}
+
+nav li a:hover
+{
+    background-color: white;
+    color: #233647;
+}
+
+.centertext 
+{
+  font-family: calibri;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+.headings 
+{
+  font-family: century;
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 100px;
+  right: 1px;
+}
+
+.btn 
+{
+  padding: 10px 35px;
+  background-color: transparent;
+  border:1px solid white;
+  color: white;
+  outline: none;
+  transition: .6s ease;
+}
+
+.btn:hover 
+{
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+  font-weight: bold;
+}
+
+.h2am
+{
+    font-family: lucida console;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+ .socials li {
+  margin: 0 10px;
+ }
+
+ .socials a {
+  text-decoration: none;
+  color: black;
+ }
+
+ .socials a i {
+  font-size: 1.1rem;
+ }
+
+ .socials a:hover i {
+  color: aqua;
+ }

@@ -1,0 +1,147 @@
+body
+{
+  background-color: #171717;
+  height: 180px;
+}
+
+.card
+{
+  background-color: black;
+}
+.center 
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 150px; 
+  height: 150px;
+} 
+
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centertext {
+  font-family: calibri;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+.i
+{
+  font-family: calibri;
+  font-size: 40px;
+}
+
+
+.gallery {
+  margin: 45px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 350px;
+  display: block;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.topnav a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  margin-top: 5px;
+  margin-right: 20px;
+  width: 100px;
+  display: block;
+  margin-bottom: 1px;
+}
+
+.topnav a:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+  font-weight: bold;
+}
+
+.margin{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 30%;
+  right: 10%;
+}
+
+#home {
+  display: flex;
+  flex-direction: column; 
+  height: 800px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.headings {
+  font-family: century;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.btn {
+  padding: 10px 35px;
+  background-color: transparent;
+  border:1px solid white;
+  color: white;
+  outline: none;
+  transition: .6s ease;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+  font-weight: bold;
+}
+
+.main {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 30%;
+  right: 10%;
+}  
+
+.cardd
+{
+color: white;
+}
+
+.about{
+color: yellow;
+}

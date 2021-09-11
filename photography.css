@@ -1,0 +1,31 @@
+body
+{
+
+}
+
+.h2ph
+{
+      font-family: lucida console;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.gallery 
+            {
+                margin: 45px;
+                border: 1px solid #ccc;
+                float: left;
+                width: 350px;
+                display: block;
+            }
+
+            .gallery:hover 
+            {
+                border: 1px solid #777;
+            }
+
+            .gallery img 
+            {
+                width: 100%;
+                height: auto;
+            }
